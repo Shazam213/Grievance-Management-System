@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+/* body{
+   background: #d2fdff;
+} */
+
+body {
+   background-image: url(../images/bg.jpeg);
+ }
+
+.root{
+   width:100%;
+   font-family: "Rubik";
+   font-size: 14px;
+   letter-spacing: 1px;
+}
+
+/* .box{
+   width: 100%;
+   margin: 100px auto;
+   background: #ccc;
+   opacity: 0.5;
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+   margin-top: 0px;
+} */
+
+.box{
+   margin:7% auto;
+	background-color: rgba(0,0,0,0.1);
+	
+}
+
+
+.box .heading{
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: #000;
+   text-align: center;
+   font-family: "Rubik";
+   font-weight: 500;
+}
+
+.faqs{
+   padding: 5px 20px 20px;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   /* background:#fff; */
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   font-family: "Rubik";
+   font-size: 14px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+details summary{
+   outline: none;
+}
+
+.text{
+   color: black;
+}
+
+
+
+.navbar{
+   width: 100%px;
+   height: 95px;
+   margin: auto;
+   background-color: darkgray;
+   margin-top: 0px;
+   padding-top: 0;
+}
+
+.icon{
+   width: 200px;
+   float: left;
+   height: 70px;
+}
+
+.logo{
+   color: #ff7200;
+   font-size: 35px;
+   font-family: Arial;
+   padding-left: 20px;
+   float: left;
+   padding-top: 10px;
+   margin-top: 5px
+}
+
+.menu{
+   width: 400px;
+   float: left;
+   height: 70px;
+}
+
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px;
+  
+}
+
+ul li a{
+   text-decoration: none;
+   color: #fff;
+   font-family: Arial;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+   color: #ff7200;
+}
+
+.dropdown {
+   float: left;
+   overflow: hidden;
+ }
+ 
+ /* Dropdown button */
+ .dropdown .dropbtn {
+   font-size: 16px;
+   border: none;
+   outline: none;
+   color: white;
+   padding: 14px 16px;
+   background-color: inherit;
+   font-family: inherit; /* Important for vertical align on mobile phones */
+   margin: 0; /* Important for vertical align on mobile phones */
+ }
+ 
+ /* Add a red background color to navbar links on hover */
+ 
+ 
+ /* Dropdown content (hidden by default) */
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ /* Links inside the dropdown */
+ .dropdown-content a {
+   float: none;
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+ }
+ 
+ /* Add a grey background color to dropdown links on hover */
+ .dropdown-content a:hover {
+   background-color: #ddd;
+ }
+ 
+ /* Show the dropdown menu on hover */
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+ .navbar{
+   width: 100%px;
+   height: 95px;
+   margin: auto;
+   background-color: darkgray;
+}
+
+.icon{
+   width: 200px;
+   float: left;
+   height: 70px;
+}
+
+.logo{
+   color: #ff7200;
+   font-size: 35px;
+   font-family: Arial;
+   padding-left: 20px;
+   float: left;
+   padding-top: 10px;
+   margin-top: 5px
+}
+
+.menu{
+   width: 400px;
+   float: left;
+   height: 70px;
+}
+
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ul li{
+   list-style: none;
+   margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px;
+  
+}
+
+ul li a{
+   text-decoration: none;
+   color: #fff;
+   font-family: Arial;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+   color: #ff7200;
+}

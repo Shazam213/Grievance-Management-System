@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greivance Registration</title>
+    <link rel="stylesheet" href="../static/css/complaintForm.css">
+</head>
+
+<body>
+   <header>
+  <form action="specify_later">
+      <section class="box">
+          
+      <h2>Greivance Registration</h2>
+     
+      <minisection>
+
+      <label for="firstName"></label>
+      <p>First Name
+      <input type="text" placeholder="Enter first name" id="firstName" name="firstName" required minlength="5" maxlength="20">
+      </p>
+
+      <label for="lastName"></label>
+      <p>Last Name
+      <input type="text" placeholder="Enter last name" id="lastName" name="lastName" required minlength="5" maxlength="20">
+      </p>
+
+      <label for="PersonName"></label>
+      <p>Name of the person against whom the complaint is filed:
+      <input type="text" placeholder="Enter last name" id="PersonName" name="PersonName" required minlength="2" maxlength="20">
+      </p>
+
+      <label for="RegistrationID"></label>
+      <p>Registration ID
+      <input type="text" placeholder="Enter registration id" id="RegistrationID" name="RegistrationID" required lenght="9">
+      </p>
+
+      <label for="emailId"></label>
+      <p>Email ID
+      <input type="email" placeholder="Enter valid email address" id="emailId" name="emailId" required minlength="5" maxlength="30">
+      </p>
+
+      <label for="Date"></label>
+      <p>Date of filling the form:
+      <input type="date" placeholder="Enter valid email address" id="Date" name="Date" required >
+      </p>
+
+      <label for="Type"></label>
+      <p>Type of grievance: <br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">ragging based</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">women harrasment</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">academic based</label><br>
+        <input type="radio" id="javascrip" name="fav_language" value="JavaScrip">
+        <label for="javascrip">infrastructure based</label><br>
+        <input type="radio" id="javascri" name="fav_language" value="JavaScri">
+        <label for="javascri">others</label> <br>
+      </p>
+
+      <label for="TextArea"></label>
+      <p>Enter the description of grievance:<br>
+       <!-- <input type="text" name="TextArea">
+      <textarea name="comment" form="TextArea">Enter text here...</textarea> -->
+
+      <textarea rows="4" cols="50" name="TextArea" form="TextArea">Enter text here...</textarea>
+      </p>
+
+      <!-- <p>
+      <label for="password"></label>
+      Password
+      <input type="password" placeholder="Enter Password" id="password" name="password" required minlength="8" maxlength="20">
+      </p>
+
+      <p>
+      <label for="confirmPassword"></label>
+      Confirm Password
+      <input type="password" placeholder="Enter Password again" id="confirmPassword" name="confirmPassword" required minlength="8" maxlength="20">
+      </p> -->
+      </minisection>
+
+      <!-- <label>
+         <input type="checkbox"  value="Remember" name="remember" style="marginbottom: 15px"> Remember me(You will be logged in directly the next time)
+         </label>
+         <br>
+         <label>
+         <input type="checkbox"  value="Agreement" name="agreement" style="marginbottom: 15px" required> I agree to the <a href="#">Terms and Conditions</a> of <a href="demopractice.html">RootsToWings</a>
+         </label> -->
+            <button> <a href="/formfilled">Submit</a> </button><br>
+      
+         </section>
+  </form>
+  </header>
+</body>
+</html>
