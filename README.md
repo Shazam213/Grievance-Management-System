@@ -1,2 +1,20 @@
-# Grievance-Management-System
-We have created a digitalized grievance management system where the students of VJTI can send their grievance online using our website and get the required solution by the admin. We have given utmost importance to the privacy of the student while also maintaning transparency in the process
+# Grievance Management System
+
+## Teammates
+* Ishaan Chandak
+* Pranav Shukla
+* Guaravi Patil
+* Soham Mulye
+* Dhruvisha Anghan
+* Dhruvanshu Joshi
+
+## STUFF USED
+* HTML
+* SqlLite
+* CSS
+* JavaScript
+
+## Features
+* Complaint Registration 
+* Complaint Status Management
+* Facility for Admins to respond to the Complaints
