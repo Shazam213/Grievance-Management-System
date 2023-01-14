@@ -1,0 +1,90 @@
+h2{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin:0;
+    padding:0 0 20px;
+    font-size:22px;
+
+
+}
+minisection{
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.box {
+    border: 2px solid rgba(228, 106, 6, 0.738);
+    background-color: white;
+    padding: 80px;
+    margin: 40px;
+    width: 150px;
+    height: 300px;
+    margin: auto;
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    background: transparent;
+  }
+
+  .box text{
+    position: center;
+    font-size: large;
+  }
+
+  .box p{
+   text-align:left;
+  }
+
+  .box input[type="text"], input[type="password"]
+  {
+    border:none;
+    border-bottom:1px solid #000;
+    background:transparent;
+    outline:none;
+    height:25px;
+    color:#000;
+    font-size:12px;
+  }
+  .avatar{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+  }
+
+header {
+    background-image: url(./../images/bg.jpg);
+    background-size: cover; 
+    height: 100vh;
+    background-position: center;
+
+}
+
+.box button{
+    border:none;
+    outline:none;
+    height:30px;
+    background: rgba(206, 87, 21, 0.8);
+    color:#fff;
+    font-size:16px;
+    border-radius:10px;
+}
+
+.box button:hover
+{
+    cursor:pointer;
+    background:rgba(152, 70, 24, 0.8);
+    color:#000;
+}
+
+.box a{
+    text-decoration:none;
+    font-size:16px;
+    line-height:20px;
+    color:darkgrey;
+}
+.box a:hover{
+    cursor:pointer;
+    color:rgba(152, 70, 24, 0.8);
+}

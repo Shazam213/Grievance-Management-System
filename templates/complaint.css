@@ -1,0 +1,28 @@
+h2{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+minisection{
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.box {
+    border: 2px solid rgba(228, 106, 6, 0.738);
+    background-color: white;
+    padding: 80px;
+    margin: 40px;
+    width: 150px;
+    height: 300px;
+    margin: auto;
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+  }
+
+header {
+    background-image: url(https://img.freepik.com/premium-vector/thanks-card-simple-background_682335-28.jpg);
+    background-size: cover; 
+    height: 100vh;
+    background-position: center;
+
+}

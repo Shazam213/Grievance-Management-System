@@ -1,0 +1,23 @@
+.box {
+    border: 2px solid green;
+    background-color: white;
+    padding: 60px;
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+  }
+
+ .box img{
+    width: 200px;
+    height: 200px;
+    position:absolute; top:30%; left:55%; transform:translate(-50%,-50%);
+ }
+
+ .box text{
+   
+    position:absolute; top:70%; left:55%; transform:translate(-50%,-50%);
+    font-size: 40px;
+    width: 200px;
+}

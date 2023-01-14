@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/adminLogin.css">
+</head>
+<body>
+	<div class="navbar">
+		<div class="icon">
+			<h2 class="logo">VJTI</h2>
+		</div>
+
+		<div class="menu">
+			<ul>
+				<li><a href="/home">HOME</a></li>
+				<li><a href="/about">ABOUT</a></li>
+				<div>
+					<div class="dropdown">
+					 <button class="dropbtn">
+					<li><a href="/login">LOG IN</a></li>
+					  <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="/student-login">\Student LogIn</a>
+					  
+					  <a href="/login">Admin LogIn</a>
+					</div>
+				  </div>
+				</div>
+				<div>
+					<div class="dropdown">
+					 <button class="dropbtn">
+					<li><a href="/register">SIGN UP</a></li>
+					<i class="fa fa-caret-down"></i>
+					 </button>
+					<div class="dropdown-content">
+					 <a href="/register">Student SignUp</a>
+				  
+					 <a href="/register2">Admin SignUp</a>
+					</div>
+					 </div>
+
+				</div>
+				<li><a href="/contact">CONTACT</a></li>
+			</ul>
+		</div>
+
+		<!-- <div class="search">
+			<input class="srch" type="search" name="" placeholder="Type To text">
+			<a href="#"> <button class="btn">Search</button></a>
+		</div>
+
+	</div>  -->
+ <div class="container">
+ 	<div class="header">
+		<img src="../static/images/vjti-college-logo.png" class="avatar">
+ 		<h1>Log In</h1>
+ 	</div>
+ 	<div class="main">
+ 		<form method="POST" action="">
+			{{ form.hidden_tag() }}
+			{{ form.username }}
+			{{ form.password }}
+			{{ form.submit }}
+ 		</form>
+		<a href="{{ url_for('register') }}">no account?</a><br>
+ 	</div>
+ </div>
+</body>
+</html>
