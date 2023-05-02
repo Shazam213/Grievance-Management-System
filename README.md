@@ -8,7 +8,7 @@
 * Dhruvisha Anghan
 * Dhruvanshu Joshi
 
-## STUFF USED
+## Tech Stack Used
 * HTML
 * SqlLite
 * CSS
